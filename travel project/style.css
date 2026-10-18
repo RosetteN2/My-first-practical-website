@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    font-size: 1rem;
+    box-sizing: border-box;
+    line-height: 1.5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img{
+    width: 100%;
+}
+.logo img{
+    width: 150px;
+    height: 150px;
+}
+
+.logo{
+    text-align: center;
+}
+
+nav{
+    text-align: center;
+    padding: 30px;
+}
+
+nav a{
+    text-transform: uppercase;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.text{
+    text-align: center;
+    padding: 40px;
+
+}
+
+h1{
+    font-size: 2rem;
+    margin-bottom: 0 0 10px 0;
+}
+
+.text button{
+    display: block;
+    margin: 20px auto;
+    background-color: darkgreen;
+    padding: 10px 40px;
+    color: white;
+    border-radius: 30px;
+    text-align: center;
+    
+      
+     
+}
+
+  .text h3{
+    color: rgb(133, 247, 133);
+    padding-top: 10px;
+}
+
+.text p{
+    padding-top: 10px;
+}
+
+
+.form{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+input{
+    display: block;
+    width: 200%;
+    margin: 0 0 10px;
+    padding: 10px;
+    box-sizing: border-box;
+
+}
+.form h2{
+    padding-bottom: 20px;
+}
+
+.form button{
+    background-color: darkgreen;
+    padding: 10px 40px;
+    color: white;
+}
+
+.remark h3{
+    text-align: center;
+    padding-top: 40px;
+}
+
+footer {
+    padding-top: 10px;
+    text-align: center;
+}     
+
+
+
+.explore{
+    display: flex;
+    width: 100%;
+    padding: 20px;
+    justify-content: space-between;
+
+}
+
+.explore img{
+    width: 100%;
+
+}
+
+.account{
+    padding-left: 40px;
+    text-align: center;
+}
+.account i ,button{
+    display: block;
+}
